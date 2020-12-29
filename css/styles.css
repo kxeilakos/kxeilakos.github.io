@@ -10112,3 +10112,13 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.project-img{
+  width:100%;
+  border:white 2px solid;
+  border-radius: 10px;
+}
+.project-img:hover{
+  width:100%;
+  border:#bd5d38 2px solid;
+  border-radius: 10px;
+}

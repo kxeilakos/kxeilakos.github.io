@@ -12,6 +12,11 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -29,8 +34,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 </ul>
             </div>
         </nav>
@@ -182,12 +186,12 @@
                 </div>
             </section> -->
             <!-- Projects-->
-            <section class="resume-section" id="education">
+            <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://appsource.microsoft.com/en-us/product/office/WA104382040?tab=Overview" title="View in Appsource">The Formida Feedback</a></h3>
+                            <h3 class="mb-0">The Formida Feedback<a href="https://appsource.microsoft.com/en-us/product/office/WA104382040?tab=Overview" title="View in Appsource" target="_blank" style="padding-left: 1rem;"><i class="fas fa-external-link-alt"></i></a> <a href="#" style="padding-left: 1rem;"><i class="far fa-file-video" title="View demo"></i></a></h3>
                             <div class="subheading mb-3"> <i class="fas fa-chevron-right"></i> Word Addin using Word JS API</div>
                             <ul class="fa-ul mb-0">
                                 <li>
@@ -208,8 +212,78 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="flex-grow-1" style="padding-left: 7rem;">
+                            <div class="row">
+                                <div class="col-md-5">
+                                  <div class="thumbnail">
+                                    <a href="assets/img/f1.png" target="_blank">
+                                      <img src="assets/img/f1.png" alt="log in screen" class="project-img">
+                                      <div class="caption">
+                                        <p>Log in Screen</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                  <div class="thumbnail">
+                                    <a href="assets/img/f2.png" target="_blank">
+                                      <img src="assets/img/f2.png" alt="Comments screen" class="project-img">
+                                      <div class="caption">
+                                        <p>Comments Screen</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            image gallery
+                            <h3 class="mb-0">The Formida Feedback<a href="https://appsource.microsoft.com/en-us/product/office/WA104382040?tab=Overview" title="View in Appsource" target="_blank" style="padding-left: 1rem;"><i class="fas fa-external-link-alt"></i></a> <a href="#" style="padding-left: 1rem;"><i class="far fa-file-video" title="View demo"></i></a></h3>
+                            <div class="subheading mb-3"> <i class="fas fa-chevron-right"></i> Word Addin using Word JS API</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Fetches comments' libraries through API requests
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Inserts predefined comments into a document
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Supports Google, Miscrosoft and standard user login
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    User can generate custom comments and store them in library
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-grow-1" style="padding-left: 7rem;">
+                            <div class="row">
+                                <div class="col-md-5">
+                                  <div class="thumbnail">
+                                    <a href="assets/img/f1.png" target="_blank">
+                                      <img src="assets/img/f1.png" alt="log in screen" class="project-img">
+                                      <div class="caption">
+                                        <p>Log in Screen</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-5">
+                                  <div class="thumbnail">
+                                    <a href="assets/img/f2.png" target="_blank">
+                                      <img src="assets/img/f2.png" alt="Comments screen" class="project-img">
+                                      <div class="caption">
+                                        <p>Comments Screen</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
